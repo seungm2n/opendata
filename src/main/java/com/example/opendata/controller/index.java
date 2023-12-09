@@ -9,6 +9,6 @@ public class index {
 
     @GetMapping("/")
     public String index() {
-        return "index 호출 됨.";
+        return "index";
     }
 }
